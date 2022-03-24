@@ -1,6 +1,6 @@
 import Controller from '@ember/controller';
 
-export default class ApplicationController extends Controller {
-           fistName = 'Luis',
-           lastName = 'Carlos'
-}
+export default Controller.extend({
+  firstName: 'Luis',
+  lastName: 'Carlos',
+});

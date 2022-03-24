@@ -1,8 +1,8 @@
 {
-  "name": "e-project",
+  "name": "e-pokedex",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for e-project goes here",
+  "description": "Small description for e-pokedex goes here",
   "license": "MIT",
   "author": "",
   "directories": {

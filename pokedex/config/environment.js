@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'e-project',
+    modulePrefix: 'e-pokedex',
     environment,
     rootURL: '/',
     locationType: 'auto',
