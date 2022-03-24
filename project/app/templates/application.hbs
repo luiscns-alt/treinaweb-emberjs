@@ -8,5 +8,8 @@
 
 <a href="https://google.com" {{action 'toggleShow' allowedKeys="alt" preventDefault=true}}>Toggle</a>
 
+{{if canShow firstName lastName}}
+<button {{action "toggleShow" firstName}} >Toggle</button><br>
+<button {{action "toggleShow" on="mouseMove"}} >Toggle</button><br>
 
 {{outlet}}
