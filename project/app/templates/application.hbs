@@ -1,21 +1,39 @@
 {{ firstName }} {{ lastName }}<br>
 
+{{ if canShow firstName lastName}}
+<br>
+
+{{#if canShow}}
+  <h2>Show</h2>
+{{else}}
+  <h2>Not Show</h2>
+{{/if}}
+
+<br>
+{{ log 'My log name is: ' firstName }}
+<br>
+{{ concat firstName '-' lastName }}
+<br>
+{{ get myList '0.name' }}
+
+
 <ul>
-  {{#each myList as |item index|}}
-    <li>{{index}}:{{item.name}} - {{item.age}}</li>
-  {{else}}
-    <li>Lista Vazia</li>
+  {{#each myList as |item index| }}
+    <li>{{index}}: {{item.name}} -  {{item.age}}</li>
   {{/each}}
 </ul>
-<ul>
-  {{#each-in myNumbers as |category numbers|}}
-    <li>{{category}} </li>
-    <ul>
-      {{#each numbers as |item|}}
-        <li>{{item}}</li>
-      {{/each}}
-    </ul>
-  {{/each-in}}
-</ul>
+
+
+{{#each-in myNumbers as |category numbers|}}
+  <ul>
+    <li>{{category}}</li>
+    {{#each numbers as |item|}}
+      <li>{{item}}</li>
+    {{/each}}
+  </ul>
+{{/each-in}}
+
+<br>
+{{ snake-case 'Minha snake case exemplo' }}
 
 {{outlet}}
