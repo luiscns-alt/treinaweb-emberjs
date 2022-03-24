@@ -12,5 +12,10 @@ export default Controller.extend({
   myNumbers: {
     odd: [1, 3, 5],
     even: [2, 4, 6]
+  },
+  actions: {
+    toggleShow: function () {
+      this.toggleProperty('canShow');
+    }
   }
 });
