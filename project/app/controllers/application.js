@@ -1,5 +1,39 @@
 import Controller from '@ember/controller';
 
+const Animal = Ember.Object.extend({
+  species: '',
+  sound: '',
+  makeNoise() {
+    return `The ${this.get('species')} says: ${this.get('sound')}`;
+  }
+})
+
+const Cat = Animal.extend({
+  species: 'cat',
+  sound: 'meow',
+  makeNoise() {
+    var name = this.get('name'),
+      superReturn = this._super(),
+      noise = '';
+    if (name) {
+      noise = `${name}, ${superReturn}`;
+    } else {
+      noise = superReturn;
+    }
+    console.log(noise);
+  }
+})
+
+Cat.reopen({
+  sound: 'meow meow'
+})
+
+let myCat = Cat.create({
+  name: 'Gumball'
+})
+
+myCat.makeNoise();
+
 export default Controller.extend({
   firstName: 'Luis',
   lastName: 'Carlos',
