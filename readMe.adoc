@@ -1,0 +1,16 @@
+== Configurando Ambiente
+
+=== NodeJs
+
+Instalar o https://nodejs.org/[NodeJs]
+
+=== EmberJs
+
+No terminal execute o comando npm para instalação no Ember globalmente
+
+[source,shell]
+----
+npm install -g ember-cli
+----
+
+Agora basta executar o comando _**ember**_ no terminal para visualizar as opções disponiveis para criar a aplicação.
