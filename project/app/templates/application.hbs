@@ -1,15 +1,9 @@
-{{ firstName }} {{ lastName }}<br>
+{{ input value=firstName }}
+{{ input value=lastName }}
 
-<input type="text" value="{{firstName}}">
+<br>
 
-{{ input value=firstName }}<br>
-{{input type="checkbox" checked="true"}}<br>
-{{textarea cols="50" rows="5" }}<br>
+{{ fullName }}
 
-<a href="https://google.com" {{action 'toggleShow' allowedKeys="alt" preventDefault=true}}>Toggle</a>
-
-{{if canShow firstName lastName}}
-<button {{action "toggleShow" firstName}} >Toggle</button><br>
-<button {{action "toggleShow" on="mouseMove"}} >Toggle</button><br>
 
 {{outlet}}
