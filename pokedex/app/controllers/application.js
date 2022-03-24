@@ -1,21 +1,25 @@
 import Controller from '@ember/controller';
 
 export default Controller.extend({
-  init() {
-    this._super(...arguments);
-    this.pkmList = [
-      {
-        name: 'Pikachu',
-        number: 025
-      },
-      {
-        name: 'Chikorita',
-        number: 152
-      },
-      {
-        name: 'Blaziken',
-        number: 257
-      }
-    ]
-  }
+  pkmFilter: '',
+  list: [
+    {
+      "name": 'pikachu',
+      "number": '025'
+    },
+    {
+      "name": 'chikorita',
+      "number": '152'
+    },
+    {
+      "name": 'blaziken',
+      "number": '257'
+    }
+  ],
+  pkmList: Ember.computed('list', 'pkmFilter', function () {
+    var pkmList = this.get('list'),
+      pkmFilter = this.get('pkmFilter').toLowerCase();
+
+    return pkmList.filter(pkm => pkm.name.includes(pkmFilter));
+  })
 });
