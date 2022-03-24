@@ -1,17 +1,21 @@
 {{ firstName }} {{ lastName }}<br>
 
-{{ if canShow firstName lastName }}
-
-<input type="checkbox" checked={{canShow}}><br>
-
-{{#if canShow}}
-<h1>Hello</h1>
-{{else}}
-<h1>World</h1>
-{{/if}}<br>
-
-{{#unless canShow}}
-  <h1>Hello Unless</h1>
-{{/unless}}
+<ul>
+  {{#each myList as |item index|}}
+    <li>{{index}}:{{item.name}} - {{item.age}}</li>
+  {{else}}
+    <li>Lista Vazia</li>
+  {{/each}}
+</ul>
+<ul>
+  {{#each-in myNumbers as |category numbers|}}
+    <li>{{category}} </li>
+    <ul>
+      {{#each numbers as |item|}}
+        <li>{{item}}</li>
+      {{/each}}
+    </ul>
+  {{/each-in}}
+</ul>
 
 {{outlet}}
