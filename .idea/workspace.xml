@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="fix: gerando controller">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: loopings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/controllers/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/controllers/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/templates/application.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,7 @@
       <workItem from="1648090869863" duration="2274000" />
       <workItem from="1648136717464" duration="3928000" />
       <workItem from="1648141308986" duration="2764000" />
-      <workItem from="1648144216819" duration="829000" />
+      <workItem from="1648144216819" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="install ember.js">
       <created>1648085293224</created>
@@ -140,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648144680980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: condições na template">
+      <created>1648145165603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648145165603</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: loopings">
+      <created>1648145726941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648145726941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +173,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/project" />
     </ignored-roots>
@@ -167,8 +183,9 @@
     <MESSAGE value="gerando um controller" />
     <MESSAGE value="fix: base aplication ember project" />
     <MESSAGE value="fix: gerando controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: gerando controller" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="feat: condições na template" />
+    <MESSAGE value="feat: loopings" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: loopings" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
