@@ -1,0 +1,13 @@
+<h1>Products</h1>
+
+{{#link-to 'products.new'}}Novo{{/link-to}}
+<br />
+Id do produto: {{ prodId }}
+
+<ul>
+  <li>{{#link-to 'products' (query-params productId="123" )}}Produto 123{{/link-to}}</li>
+  <li>{{#link-to 'products' (query-params productId="523" )}}Produto 523{{/link-to}}</li>
+</ul>
+
+
+{{outlet}}
