@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create services">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create services in project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokedex/app/controllers/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/controllers/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/app/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/controllers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pokedex/app/controllers/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/controllers/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/app/routes/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/routes/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pokedex/app/services/poke-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/services/poke-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="09-Routes" />
+        <entry key="$PROJECT_DIR$" value="10-Services" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,7 +106,7 @@
       <workItem from="1648141308986" duration="2764000" />
       <workItem from="1648144216819" duration="5248000" />
       <workItem from="1648158684634" duration="4325000" />
-      <workItem from="1648171654788" duration="4152000" />
+      <workItem from="1648171654788" duration="4760000" />
     </task>
     <task id="LOCAL-00001" summary="install ember.js">
       <created>1648085293224</created>
@@ -284,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648175272957</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: create services in project">
+      <created>1648176045622</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648176045622</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +335,8 @@
     <MESSAGE value="feat: create hooks and substate" />
     <MESSAGE value="feat: create routes" />
     <MESSAGE value="feat: create services" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create services" />
+    <MESSAGE value="feat: create services in project" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create services in project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
