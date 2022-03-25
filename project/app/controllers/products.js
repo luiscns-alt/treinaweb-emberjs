@@ -7,5 +7,10 @@ export default Controller.extend({
     this._super(...arguments)
   },
   prodId: '',
-  myService: service()
+  myService: service(),
+  actions: {
+    remove: function(product){
+      product.destroyRecord();
+    }
+  }
 });

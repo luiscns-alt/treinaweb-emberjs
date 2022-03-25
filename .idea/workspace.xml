@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: consuming api">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create models and transforms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/controllers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/routes/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/templates/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/products.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/templates/products/new.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/products/new.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +108,7 @@
       <workItem from="1648141308986" duration="2764000" />
       <workItem from="1648144216819" duration="5248000" />
       <workItem from="1648158684634" duration="4325000" />
-      <workItem from="1648171654788" duration="5067000" />
+      <workItem from="1648171654788" duration="6743000" />
     </task>
     <task id="LOCAL-00001" summary="install ember.js">
       <created>1648085293224</created>
@@ -294,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648176591797</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat: create models and transforms">
+      <created>1648176927715</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648176927715</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +328,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/project" />
     </ignored-roots>
-    <MESSAGE value="install ember.js" />
     <MESSAGE value="init project ember" />
     <MESSAGE value="comandos basicos" />
     <MESSAGE value="gerando um controller" />
@@ -341,7 +352,8 @@
     <MESSAGE value="feat: create services" />
     <MESSAGE value="feat: create services in project" />
     <MESSAGE value="feat: consuming api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: consuming api" />
+    <MESSAGE value="feat: create models and transforms" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create models and transforms" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

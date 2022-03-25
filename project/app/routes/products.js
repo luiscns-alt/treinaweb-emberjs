@@ -2,9 +2,7 @@ import Route from '@ember/routing/route';
 
 export default Route.extend({
   model: () => {
-    return new Promise((resolve) => {
-      setTimeout(resolve, 500)
-    })
+    return this.get('store').findAll('product');
   },
   willTransition: function() {
     window.console.log('Init transition');
