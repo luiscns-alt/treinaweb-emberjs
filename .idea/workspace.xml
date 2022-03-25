@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create hooks and substate">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create routes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/app/controllers/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/controllers/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/templates/application.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokedex/app/templates/components/poke-list.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pokedex/app/templates/components/poke-list.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/controllers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/routes/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/templates/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/products.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="08-Components" />
+        <entry key="$PROJECT_DIR$" value="09-Routes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +62,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.start pokedex">
+  <component name="RunManager" selected="npm.start project">
     <configuration name="start pokedex" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/pokedex/package.json" />
       <command value="run" />
@@ -107,7 +106,7 @@
       <workItem from="1648141308986" duration="2764000" />
       <workItem from="1648144216819" duration="5248000" />
       <workItem from="1648158684634" duration="4325000" />
-      <workItem from="1648171654788" duration="2981000" />
+      <workItem from="1648171654788" duration="3428000" />
     </task>
     <task id="LOCAL-00001" summary="install ember.js">
       <created>1648085293224</created>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648174214007</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: create routes">
+      <created>1648174916075</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648174916075</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,10 +317,10 @@
     <MESSAGE value="feat: create properties and block" />
     <MESSAGE value="feat: event response" />
     <MESSAGE value="feat: component filter list" />
-    <MESSAGE value="feat: create routes" />
     <MESSAGE value="feat: create parameters" />
     <MESSAGE value="feat: create hooks and substate" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create hooks and substate" />
+    <MESSAGE value="feat: create routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create routes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
