@@ -1,7 +1,11 @@
 {{ input value=firstName }}
 {{ input value=lastName }}
 
-{{ text-counter }}
+{{#text-counter myText=firstName }}
+  <b>Total de Caracteres</b>
+{{/text-counter}}
+<br>
+{{text-counter myText=firstName }}
 
 <br>
 

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: computed and observer in project">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create component input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/application.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/templates/components/text-counter.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/components/text-counter.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,8 @@
       <workItem from="1648136717464" duration="3928000" />
       <workItem from="1648141308986" duration="2764000" />
       <workItem from="1648144216819" duration="5248000" />
-      <workItem from="1648158684634" duration="3575000" />
+      <workItem from="1648158684634" duration="4325000" />
+      <workItem from="1648171654788" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="install ember.js">
       <created>1648085293224</created>
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648162077577</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: create component input">
+      <created>1648162532936</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648162532936</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +249,8 @@
     <MESSAGE value="feat: object in emberjs" />
     <MESSAGE value="feat: computed and observer in emberjs" />
     <MESSAGE value="feat: computed and observer in project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: computed and observer in project" />
+    <MESSAGE value="feat: create component input" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create component input" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

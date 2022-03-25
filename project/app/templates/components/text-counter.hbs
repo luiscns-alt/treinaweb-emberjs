@@ -1,4 +1,8 @@
 {{ textarea value=myText }}
 <div>
-  Total: {{ myText.length }}
+  {{#if hasBlock}}
+    {{ yield }} : {{ myText.length }}
+  {{else}}
+    Total: {{myText.length }}
+  {{/if}}
 </div>
