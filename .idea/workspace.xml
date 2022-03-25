@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create models and transforms">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/controllers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/routes/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/templates/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/products.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/templates/products/new.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/templates/products/new.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="11-Requisições_HTTP" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26oKmLVOOCC2VUvtZd3TGpk7Ne3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="C:\Users\jornada\AppData\Local\Volta\tools\image\yarn\1.22.17" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.start pokedex">
+    <configuration name="start pokedex" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/pokedex/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start project" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/project/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="" />
+      <created>1648084669923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648084669923</updated>
+      <workItem from="1648084689313" duration="1722000" />
+      <workItem from="1648086461947" duration="1176000" />
+      <workItem from="1648087707953" duration="478000" />
+      <workItem from="1648088342756" duration="268000" />
+      <workItem from="1648088708341" duration="384000" />
+      <workItem from="1648089156020" duration="238000" />
+      <workItem from="1648089436419" duration="71000" />
+      <workItem from="1648089574891" duration="494000" />
+      <workItem from="1648090138056" duration="676000" />
+      <workItem from="1648090869863" duration="2274000" />
+      <workItem from="1648136717464" duration="3928000" />
+      <workItem from="1648141308986" duration="2764000" />
+      <workItem from="1648144216819" duration="5248000" />
+      <workItem from="1648158684634" duration="4325000" />
+      <workItem from="1648171654788" duration="6743000" />
+    </task>
+    <task id="LOCAL-00001" summary="install ember.js">
+      <created>1648085293224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648085293224</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comandos basicos">
+      <created>1648085983253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648085983253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comandos basicos">
+      <created>1648089830703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648089830703</updated>
+    </task>
+    <task id="LOCAL-00004" summary="gerando um controller">
+      <created>1648140429435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648140429436</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: gerando controller">
+      <created>1648144680980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648144680980</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: condições na template">
+      <created>1648145165603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648145165603</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: loopings">
+      <created>1648145726941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648145726941</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: cria primeira view">
+      <created>1648151224126</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648151224126</updated>
+    </task>
+    <task id="LOCAL-00009" summary="project: create formated number helper">
+      <created>1648159816503</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648159816503</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: input helper">
+      <created>1648160400753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648160400753</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: actions helper">
+      <created>1648160597916</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648160597916</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: object in emberjs">
+      <created>1648161026958</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648161026958</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: computed and observer in emberjs">
+      <created>1648161451709</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648161451709</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: computed and observer in project">
+      <created>1648162077577</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648162077577</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: create component input">
+      <created>1648162532936</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648162532936</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: create properties and block">
+      <created>1648172190461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648172190461</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: event response">
+      <created>1648172692917</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648172692917</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: component filter list">
+      <created>1648172985957</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648172985957</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: component filter list">
+      <created>1648173061877</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173061877</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: create routes">
+      <created>1648173503743</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173503743</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: create routes">
+      <created>1648173541890</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173541890</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: create parameters">
+      <created>1648173886393</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173886393</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: create hooks and substate">
+      <created>1648174214007</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648174214007</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: create routes">
+      <created>1648174916075</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648174916075</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: create services">
+      <created>1648175272957</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648175272957</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: create services in project">
+      <created>1648176045622</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648176045622</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: consuming api">
+      <created>1648176591797</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648176591797</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: create models and transforms">
+      <created>1648176927715</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648176927715</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/project" />
+    </ignored-roots>
+    <MESSAGE value="init project ember" />
+    <MESSAGE value="comandos basicos" />
+    <MESSAGE value="gerando um controller" />
+    <MESSAGE value="fix: base aplication ember project" />
+    <MESSAGE value="fix: gerando controller" />
+    <MESSAGE value="feat: condições na template" />
+    <MESSAGE value="feat: loopings" />
+    <MESSAGE value="feat: cria primeira view" />
+    <MESSAGE value="project: create formated number helper" />
+    <MESSAGE value="feat: input helper" />
+    <MESSAGE value="feat: actions helper" />
+    <MESSAGE value="feat: object in emberjs" />
+    <MESSAGE value="feat: computed and observer in emberjs" />
+    <MESSAGE value="feat: computed and observer in project" />
+    <MESSAGE value="feat: create component input" />
+    <MESSAGE value="feat: create properties and block" />
+    <MESSAGE value="feat: event response" />
+    <MESSAGE value="feat: component filter list" />
+    <MESSAGE value="feat: create parameters" />
+    <MESSAGE value="feat: create hooks and substate" />
+    <MESSAGE value="feat: create routes" />
+    <MESSAGE value="feat: create services" />
+    <MESSAGE value="feat: create services in project" />
+    <MESSAGE value="feat: consuming api" />
+    <MESSAGE value="feat: create models and transforms" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create models and transforms" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+<li class="poke-list-item">
+  {{#link-to "info" (query-params number=pokemon.number)}}
+    <img src="//serebii.net/pokedex-xy/icon/{{format-number pokemon.number}}.png" />
+    <span>{{format-number pokemon.number}} - {{pokemon.name}}</span>
+  {{/link-to}}
+</li>

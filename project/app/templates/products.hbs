@@ -1,0 +1,19 @@
+<h1>Products</h1>
+
+
+{{#link-to "products.new"}}Novo Produto{{/link-to}}
+
+<ul>
+  {{#each model as |product|}}
+    <li>
+      {{#link-to "products" ( query-params productId=product.id ) }}
+        {{product.name}}
+      {{/link-to}}
+      <button {{action 'remove' product}} >X</button>
+    </li>
+  {{/each}}
+</ul>
+
+ID do Produto: {{prodId}}
+
+{{outlet}}
