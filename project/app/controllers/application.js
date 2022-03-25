@@ -11,6 +11,15 @@ export default Controller.extend({
 
   onFullNameChange: Ember.observer('fullName', function () {
     console.log(`New Full Name: ${this.get('fullName')}`);
-  })
+  }),
+  canShow: false,
+  actions: {
+    toggleShow: function () {
+      this.toggleProperty('canShow');
+    },
+    myAction: function (param) {
+      console.log('text: ' + param)
+    }
+  }
 
 });
