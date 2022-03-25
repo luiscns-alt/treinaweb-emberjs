@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create routes">
+    <list default="true" id="4ac7972f-a516-48cd-8f67-6f3bef2bc0f4" name="Changes" comment="feat: create parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/routes/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/routes/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +105,7 @@
       <workItem from="1648141308986" duration="2764000" />
       <workItem from="1648144216819" duration="5248000" />
       <workItem from="1648158684634" duration="4325000" />
-      <workItem from="1648171654788" duration="2049000" />
+      <workItem from="1648171654788" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="install ember.js">
       <created>1648085293224</created>
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648173541890</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: create parameters">
+      <created>1648173886393</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648173886393</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +303,8 @@
     <MESSAGE value="feat: event response" />
     <MESSAGE value="feat: component filter list" />
     <MESSAGE value="feat: create routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create routes" />
+    <MESSAGE value="feat: create parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create parameters" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
